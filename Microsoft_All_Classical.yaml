@@ -1,0 +1,236 @@
+payload:
+  # DOMAIN：账户、认证与核心接口
+  - DOMAIN,login.microsoftonline.com
+  - DOMAIN,login.live.com
+  - DOMAIN,account.microsoft.com
+  - DOMAIN,signup.live.com
+  - DOMAIN,oauth.live.com
+  - DOMAIN,graph.microsoft.com
+  - DOMAIN,graph.windows.net
+  - DOMAIN,office.com
+  - DOMAIN,www.office.com
+  - DOMAIN,portal.office.com
+  - DOMAIN,admin.microsoft.com
+  - DOMAIN,outlook.office.com
+  - DOMAIN,outlook.live.com
+  - DOMAIN,onedrive.live.com
+  - DOMAIN,teams.microsoft.com
+  - DOMAIN,statics.teams.cdn.office.net
+  - DOMAIN,windowsupdate.microsoft.com
+  - DOMAIN,update.microsoft.com
+  - DOMAIN,catalog.update.microsoft.com
+  - DOMAIN,download.windowsupdate.com
+  - DOMAIN,settings-win.data.microsoft.com
+  - DOMAIN,vortex.data.microsoft.com
+  - DOMAIN,www.bing.com
+  - DOMAIN,copilot.microsoft.com
+  - DOMAIN,edgeservices.bing.com
+  - DOMAIN,edge.microsoft.com
+  - DOMAIN,xboxlive.com
+  - DOMAIN,www.xbox.com
+  - DOMAIN,api.github.com
+  - DOMAIN,github.com
+  - DOMAIN,raw.githubusercontent.com
+  - DOMAIN,visualstudio.microsoft.com
+  - DOMAIN,marketplace.visualstudio.com
+
+  # Microsoft 通用域名
+  - DOMAIN-SUFFIX,microsoft.com
+  - DOMAIN-SUFFIX,microsoft.net
+  - DOMAIN-SUFFIX,microsoftonline.com
+  - DOMAIN-SUFFIX,microsoftonline-p.com
+  - DOMAIN-SUFFIX,microsoftazuread-sso.com
+  - DOMAIN-SUFFIX,microsofttranslator.com
+  - DOMAIN-SUFFIX,msauth.net
+  - DOMAIN-SUFFIX,msauthimages.net
+  - DOMAIN-SUFFIX,msftauth.net
+  - DOMAIN-SUFFIX,msftauthimages.net
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,msftncsi.com
+  - DOMAIN-SUFFIX,msftstatic.com
+  - DOMAIN-SUFFIX,msft.net
+  - DOMAIN-SUFFIX,akadns.net
+
+  # Windows / Store / Update
+  - DOMAIN-SUFFIX,windows.com
+  - DOMAIN-SUFFIX,windows.net
+  - DOMAIN-SUFFIX,windowsupdate.com
+  - DOMAIN-SUFFIX,windowsazure.com
+  - DOMAIN-SUFFIX,windowsphone.com
+  - DOMAIN-SUFFIX,windowsstore.com
+  - DOMAIN-SUFFIX,winhec.com
+  - DOMAIN-SUFFIX,msixcdn.com
+  - DOMAIN-SUFFIX,storeedgefd.dsx.mp.microsoft.com
+  - DOMAIN-SUFFIX,delivery.mp.microsoft.com
+  - DOMAIN-SUFFIX,do.dsp.mp.microsoft.com
+
+  # Office / Microsoft 365 / Outlook
+  - DOMAIN-SUFFIX,office.com
+  - DOMAIN-SUFFIX,office.net
+  - DOMAIN-SUFFIX,office365.com
+  - DOMAIN-SUFFIX,office365.us
+  - DOMAIN-SUFFIX,officeapps.live.com
+  - DOMAIN-SUFFIX,officeppe.net
+  - DOMAIN-SUFFIX,officelive.com
+  - DOMAIN-SUFFIX,officeliveusercontent.com
+  - DOMAIN-SUFFIX,microsoft365.com
+  - DOMAIN-SUFFIX,outlook.com
+  - DOMAIN-SUFFIX,outlookmobile.com
+  - DOMAIN-SUFFIX,hotmail.com
+  - DOMAIN-SUFFIX,live.com
+  - DOMAIN-SUFFIX,live.net
+  - DOMAIN-SUFFIX,svc.ms
+
+  # OneDrive / SharePoint
+  - DOMAIN-SUFFIX,onedrive.com
+  - DOMAIN-SUFFIX,onedrive.live.com
+  - DOMAIN-SUFFIX,sharepoint.com
+  - DOMAIN-SUFFIX,sharepointonline.com
+  - DOMAIN-SUFFIX,1drv.com
+  - DOMAIN-SUFFIX,1drv.ms
+  - DOMAIN-SUFFIX,storage.live.com
+
+  # Teams / Skype
+  - DOMAIN-SUFFIX,teams.microsoft.com
+  - DOMAIN-SUFFIX,teams.live.com
+  - DOMAIN-SUFFIX,teams.cdn.office.net
+  - DOMAIN-SUFFIX,skype.com
+  - DOMAIN-SUFFIX,skype.net
+  - DOMAIN-SUFFIX,lync.com
+  - DOMAIN-SUFFIX,sfbassets.com
+  - DOMAIN-SUFFIX,trouter.io
+
+  # Bing / Copilot / Edge
+  - DOMAIN-SUFFIX,bing.com
+  - DOMAIN-SUFFIX,bing.net
+  - DOMAIN-SUFFIX,bingapis.com
+  - DOMAIN-SUFFIX,bingads.com
+  - DOMAIN-SUFFIX,bingvisualsearch.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,edge.microsoft.com
+  - DOMAIN-SUFFIX,microsoftedge.com
+  - DOMAIN-SUFFIX,microsoftedgeinsider.com
+  - DOMAIN-SUFFIX,edgesuite.net
+
+  # Xbox / 游戏
+  - DOMAIN-SUFFIX,xbox.com
+  - DOMAIN-SUFFIX,xbox.net
+  - DOMAIN-SUFFIX,xboxlive.com
+  - DOMAIN-SUFFIX,xboxservices.com
+  - DOMAIN-SUFFIX,gamepass.com
+  - DOMAIN-SUFFIX,minecraft.net
+  - DOMAIN-SUFFIX,minecraftservices.com
+  - DOMAIN-SUFFIX,mojang.com
+  - DOMAIN-SUFFIX,playfab.com
+  - DOMAIN-SUFFIX,playfabapi.com
+
+  # 开发者 / Visual Studio / GitHub / npm
+  - DOMAIN-SUFFIX,visualstudio.com
+  - DOMAIN-SUFFIX,visualstudio.microsoft.com
+  - DOMAIN-SUFFIX,vsassets.io
+  - DOMAIN-SUFFIX,vsallin.net
+  - DOMAIN-SUFFIX,vscode.dev
+  - DOMAIN-SUFFIX,github.com
+  - DOMAIN-SUFFIX,github.io
+  - DOMAIN-SUFFIX,githubassets.com
+  - DOMAIN-SUFFIX,githubusercontent.com
+  - DOMAIN-SUFFIX,githubstatus.com
+  - DOMAIN-SUFFIX,npmjs.com
+  - DOMAIN-SUFFIX,npmjs.org
+
+  # Azure / 云服务
+  - DOMAIN-SUFFIX,azure.com
+  - DOMAIN-SUFFIX,azure.net
+  - DOMAIN-SUFFIX,azureedge.net
+  - DOMAIN-SUFFIX,azurefd.net
+  - DOMAIN-SUFFIX,azure-api.net
+  - DOMAIN-SUFFIX,azurewebsites.net
+  - DOMAIN-SUFFIX,azurestaticapps.net
+  - DOMAIN-SUFFIX,azurecontainer.io
+  - DOMAIN-SUFFIX,blob.core.windows.net
+  - DOMAIN-SUFFIX,cloudapp.net
+  - DOMAIN-SUFFIX,trafficmanager.net
+
+  # 其他微软产品
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,nuget.org
+  - DOMAIN-SUFFIX,powerbi.com
+  - DOMAIN-SUFFIX,powerapps.com
+  - DOMAIN-SUFFIX,powerautomate.com
+  - DOMAIN-SUFFIX,dynamics.com
+  - DOMAIN-SUFFIX,yammer.com
+  - DOMAIN-SUFFIX,swiftkey.com
+  - DOMAIN-SUFFIX,sway.com
+  - DOMAIN-SUFFIX,onenote.com
+  - DOMAIN-SUFFIX,clarity.ms
+
+  # DOMAIN-KEYWORD
+  - DOMAIN-KEYWORD,microsoft
+  - DOMAIN-KEYWORD,windowsupdate
+  - DOMAIN-KEYWORD,office365
+  - DOMAIN-KEYWORD,onedrive
+  - DOMAIN-KEYWORD,sharepoint
+  - DOMAIN-KEYWORD,xboxlive
+  - DOMAIN-KEYWORD,azureedge
+  - DOMAIN-KEYWORD,githubusercontent
+
+  # DOMAIN-REGEX：Mihomo 支持
+  - DOMAIN-REGEX,^.+\.(microsoft|microsoftonline)\.(com|net)$
+  - DOMAIN-REGEX,^.+\.(office|office365)\.(com|net|us)$
+  - DOMAIN-REGEX,^.+\.(windows|windowsupdate)\.(com|net)$
+  - DOMAIN-REGEX,^.+\.(onedrive|sharepoint)\.com$
+  - DOMAIN-REGEX,^.+\.(xbox|xboxlive)\.(com|net)$
+  - DOMAIN-REGEX,^.+\.(azure|azureedge|azurewebsites)\.(com|net)$
+  - DOMAIN-REGEX,^.+\.(github|githubusercontent)\.com$
+
+  # GEOSITE
+  - GEOSITE,microsoft
+  - GEOSITE,onedrive
+  - GEOSITE,github
+
+  # IP-CIDR：Microsoft/Azure 自有网络的主要地址段
+  - IP-CIDR,13.64.0.0/11,no-resolve
+  - IP-CIDR,20.0.0.0/8,no-resolve
+  - IP-CIDR,40.64.0.0/10,no-resolve
+  - IP-CIDR,51.4.0.0/15,no-resolve
+  - IP-CIDR,51.8.0.0/16,no-resolve
+  - IP-CIDR,52.96.0.0/12,no-resolve
+  - IP-CIDR,52.112.0.0/14,no-resolve
+  - IP-CIDR,65.52.0.0/14,no-resolve
+  - IP-CIDR,104.40.0.0/13,no-resolve
+  - IP-CIDR,131.253.0.0/16,no-resolve
+  - IP-CIDR,157.54.0.0/15,no-resolve
+
+  # IP-CIDR6：Microsoft/Azure IPv6
+  - IP-CIDR6,2603:1000::/23,no-resolve
+  - IP-CIDR6,2603:1010::/28,no-resolve
+  - IP-CIDR6,2603:1020::/28,no-resolve
+  - IP-CIDR6,2603:1030::/28,no-resolve
+  - IP-CIDR6,2620:1ec::/36,no-resolve
+
+  # PROCESS-NAME：Windows、Office、Teams、OneDrive、Edge、Xbox 与开发工具
+  - PROCESS-NAME,MicrosoftEdge.exe
+  - PROCESS-NAME,msedge.exe
+  - PROCESS-NAME,OneDrive.exe
+  - PROCESS-NAME,Teams.exe
+  - PROCESS-NAME,ms-teams.exe
+  - PROCESS-NAME,Skype.exe
+  - PROCESS-NAME,OUTLOOK.EXE
+  - PROCESS-NAME,WINWORD.EXE
+  - PROCESS-NAME,EXCEL.EXE
+  - PROCESS-NAME,POWERPNT.EXE
+  - PROCESS-NAME,ONENOTE.EXE
+  - PROCESS-NAME,OfficeClickToRun.exe
+  - PROCESS-NAME,WindowsStore.exe
+  - PROCESS-NAME,MicrosoftStore.exe
+  - PROCESS-NAME,XboxPcApp.exe
+  - PROCESS-NAME,GamingServices.exe
+  - PROCESS-NAME,Code.exe
+  - PROCESS-NAME,devenv.exe
+  - PROCESS-NAME,GitHubDesktop.exe
+  - PROCESS-NAME,com.microsoft.office.outlook
+  - PROCESS-NAME,com.microsoft.teams
+  - PROCESS-NAME,com.microsoft.skydrive
+  - PROCESS-NAME,com.microsoft.emmx
+  - PROCESS-NAME,com.microsoft.xboxone.smartglass
