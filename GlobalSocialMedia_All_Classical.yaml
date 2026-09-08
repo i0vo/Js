@@ -1,0 +1,226 @@
+payload:
+  # DOMAIN：核心接口与入口
+  - DOMAIN,www.facebook.com
+  - DOMAIN,m.facebook.com
+  - DOMAIN,graph.facebook.com
+  - DOMAIN,connect.facebook.net
+  - DOMAIN,www.instagram.com
+  - DOMAIN,i.instagram.com
+  - DOMAIN,graph.instagram.com
+  - DOMAIN,www.threads.net
+  - DOMAIN,web.whatsapp.com
+  - DOMAIN,api.whatsapp.com
+  - DOMAIN,x.com
+  - DOMAIN,twitter.com
+  - DOMAIN,api.twitter.com
+  - DOMAIN,www.reddit.com
+  - DOMAIN,oauth.reddit.com
+  - DOMAIN,discord.com
+  - DOMAIN,discord.gg
+  - DOMAIN,www.tiktok.com
+  - DOMAIN,api.tiktokv.com
+  - DOMAIN,www.snapchat.com
+  - DOMAIN,www.pinterest.com
+  - DOMAIN,www.linkedin.com
+  - DOMAIN,www.tumblr.com
+  - DOMAIN,www.quora.com
+  - DOMAIN,www.twitch.tv
+  - DOMAIN,www.kick.com
+  - DOMAIN,bsky.app
+  - DOMAIN,mastodon.social
+  - DOMAIN,signal.org
+  - DOMAIN,line.me
+
+  # Meta / Facebook / Instagram / Threads / WhatsApp
+  - DOMAIN-SUFFIX,facebook.com
+  - DOMAIN-SUFFIX,facebook.net
+  - DOMAIN-SUFFIX,fb.com
+  - DOMAIN-SUFFIX,fb.me
+  - DOMAIN-SUFFIX,fbcdn.net
+  - DOMAIN-SUFFIX,fbsbx.com
+  - DOMAIN-SUFFIX,instagram.com
+  - DOMAIN-SUFFIX,cdninstagram.com
+  - DOMAIN-SUFFIX,threads.net
+  - DOMAIN-SUFFIX,threads.com
+  - DOMAIN-SUFFIX,messenger.com
+  - DOMAIN-SUFFIX,whatsapp.com
+  - DOMAIN-SUFFIX,whatsapp.net
+
+  # X / Twitter
+  - DOMAIN-SUFFIX,x.com
+  - DOMAIN-SUFFIX,twitter.com
+  - DOMAIN-SUFFIX,t.co
+  - DOMAIN-SUFFIX,twimg.com
+  - DOMAIN-SUFFIX,pscp.tv
+  - DOMAIN-SUFFIX,periscope.tv
+  - DOMAIN-SUFFIX,tweetdeck.com
+
+  # Reddit / Discord
+  - DOMAIN-SUFFIX,reddit.com
+  - DOMAIN-SUFFIX,redd.it
+  - DOMAIN-SUFFIX,redditmedia.com
+  - DOMAIN-SUFFIX,redditstatic.com
+  - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
+  - DOMAIN-SUFFIX,discordapp.com
+  - DOMAIN-SUFFIX,discordapp.net
+  - DOMAIN-SUFFIX,discordcdn.com
+  - DOMAIN-SUFFIX,discord.media
+
+  # TikTok / Lemon8
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokcdn-us.com
+  - DOMAIN-SUFFIX,tiktokd.org
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ibyteimg.com
+  - DOMAIN-SUFFIX,lemon8-app.com
+
+  # Snapchat / Pinterest / LinkedIn
+  - DOMAIN-SUFFIX,snapchat.com
+  - DOMAIN-SUFFIX,snap.com
+  - DOMAIN-SUFFIX,sc-cdn.net
+  - DOMAIN-SUFFIX,pinterest.com
+  - DOMAIN-SUFFIX,pinimg.com
+  - DOMAIN-SUFFIX,linkedin.com
+  - DOMAIN-SUFFIX,licdn.com
+  - DOMAIN-SUFFIX,lnkd.in
+
+  # 直播、视频与图片社区
+  - DOMAIN-SUFFIX,twitch.tv
+  - DOMAIN-SUFFIX,twitchcdn.net
+  - DOMAIN-SUFFIX,ttvnw.net
+  - DOMAIN-SUFFIX,jtvnw.net
+  - DOMAIN-SUFFIX,kick.com
+  - DOMAIN-SUFFIX,kickassets.com
+  - DOMAIN-SUFFIX,vimeo.com
+  - DOMAIN-SUFFIX,vimeocdn.com
+  - DOMAIN-SUFFIX,dailymotion.com
+  - DOMAIN-SUFFIX,dmcdn.net
+  - DOMAIN-SUFFIX,flickr.com
+  - DOMAIN-SUFFIX,staticflickr.com
+  - DOMAIN-SUFFIX,imgur.com
+  - DOMAIN-SUFFIX,9gag.com
+  - DOMAIN-SUFFIX,giphy.com
+  - DOMAIN-SUFFIX,tenor.com
+
+  # 博客、问答、订阅与新兴社交平台
+  - DOMAIN-SUFFIX,tumblr.com
+  - DOMAIN-SUFFIX,quora.com
+  - DOMAIN-SUFFIX,medium.com
+  - DOMAIN-SUFFIX,patreon.com
+  - DOMAIN-SUFFIX,patreonusercontent.com
+  - DOMAIN-SUFFIX,substack.com
+  - DOMAIN-SUFFIX,substackcdn.com
+  - DOMAIN-SUFFIX,clubhouse.com
+  - DOMAIN-SUFFIX,nextdoor.com
+  - DOMAIN-SUFFIX,mewe.com
+  - DOMAIN-SUFFIX,mastodon.social
+  - DOMAIN-SUFFIX,joinmastodon.org
+  - DOMAIN-SUFFIX,bsky.app
+  - DOMAIN-SUFFIX,bsky.social
+  - DOMAIN-SUFFIX,blueskyweb.xyz
+  - DOMAIN-SUFFIX,truthsocial.com
+  - DOMAIN-SUFFIX,bereal.com
+
+  # 海外即时通讯和地区社交平台
+  - DOMAIN-SUFFIX,signal.org
+  - DOMAIN-SUFFIX,signal.art
+  - DOMAIN-SUFFIX,line.me
+  - DOMAIN-SUFFIX,line-apps.com
+  - DOMAIN-SUFFIX,line-scdn.net
+  - DOMAIN-SUFFIX,viber.com
+  - DOMAIN-SUFFIX,kakao.com
+  - DOMAIN-SUFFIX,kakaocdn.net
+  - DOMAIN-SUFFIX,vk.com
+  - DOMAIN-SUFFIX,vk.me
+  - DOMAIN-SUFFIX,userapi.com
+  - DOMAIN-SUFFIX,ok.ru
+  - DOMAIN-SUFFIX,odnoklassniki.ru
+
+  # DOMAIN-KEYWORD
+  - DOMAIN-KEYWORD,facebook
+  - DOMAIN-KEYWORD,instagram
+  - DOMAIN-KEYWORD,whatsapp
+  - DOMAIN-KEYWORD,twitter
+  - DOMAIN-KEYWORD,reddit
+  - DOMAIN-KEYWORD,discord
+  - DOMAIN-KEYWORD,tiktok
+  - DOMAIN-KEYWORD,snapchat
+  - DOMAIN-KEYWORD,pinterest
+  - DOMAIN-KEYWORD,linkedin
+  - DOMAIN-KEYWORD,twitch
+
+  # DOMAIN-REGEX：Mihomo 支持
+  - DOMAIN-REGEX,^.+\.(facebook\.com|facebook\.net|fbcdn\.net)$
+  - DOMAIN-REGEX,^.+\.(instagram\.com|cdninstagram\.com)$
+  - DOMAIN-REGEX,^.+\.(whatsapp\.com|whatsapp\.net)$
+  - DOMAIN-REGEX,^.+\.(twitter\.com|twimg\.com|x\.com)$
+  - DOMAIN-REGEX,^.+\.(reddit\.com|redd\.it|redditmedia\.com)$
+  - DOMAIN-REGEX,^.+\.(discord\.com|discordapp\.com|discordapp\.net)$
+  - DOMAIN-REGEX,^.+\.(tiktok\.com|tiktokv\.com|tiktokcdn\.com)$
+
+  # GEOSITE
+  - GEOSITE,facebook
+  - GEOSITE,instagram
+  - GEOSITE,twitter
+  - GEOSITE,reddit
+  - GEOSITE,discord
+  - GEOSITE,tiktok
+  - GEOSITE,pinterest
+  - GEOSITE,linkedin
+  - GEOSITE,twitch
+
+  # IP-CIDR：Meta 自有网络；其他平台多使用共享 CDN
+  - IP-CIDR,31.13.24.0/21,no-resolve
+  - IP-CIDR,31.13.64.0/18,no-resolve
+  - IP-CIDR,45.64.40.0/22,no-resolve
+  - IP-CIDR,66.220.144.0/20,no-resolve
+  - IP-CIDR,69.63.176.0/20,no-resolve
+  - IP-CIDR,69.171.224.0/19,no-resolve
+  - IP-CIDR,74.119.76.0/22,no-resolve
+  - IP-CIDR,102.132.96.0/20,no-resolve
+  - IP-CIDR,129.134.0.0/16,no-resolve
+  - IP-CIDR,157.240.0.0/16,no-resolve
+  - IP-CIDR,173.252.64.0/18,no-resolve
+  - IP-CIDR,179.60.192.0/22,no-resolve
+  - IP-CIDR,185.60.216.0/22,no-resolve
+  - IP-CIDR,204.15.20.0/22,no-resolve
+
+  # IP-CIDR6
+  - IP-CIDR6,2a03:2880::/32,no-resolve
+
+  # PROCESS-NAME：桌面端及移动端
+  - PROCESS-NAME,Facebook.exe
+  - PROCESS-NAME,Instagram.exe
+  - PROCESS-NAME,WhatsApp.exe
+  - PROCESS-NAME,Twitter.exe
+  - PROCESS-NAME,Discord.exe
+  - PROCESS-NAME,DiscordCanary.exe
+  - PROCESS-NAME,TikTok.exe
+  - PROCESS-NAME,Twitch.exe
+  - PROCESS-NAME,Signal.exe
+  - PROCESS-NAME,LINE.exe
+  - PROCESS-NAME,Viber.exe
+  - PROCESS-NAME,com.facebook.katana
+  - PROCESS-NAME,com.facebook.orca
+  - PROCESS-NAME,com.instagram.android
+  - PROCESS-NAME,com.instagram.barcelona
+  - PROCESS-NAME,com.whatsapp
+  - PROCESS-NAME,com.twitter.android
+  - PROCESS-NAME,com.reddit.frontpage
+  - PROCESS-NAME,com.discord
+  - PROCESS-NAME,com.zhiliaoapp.musically
+  - PROCESS-NAME,com.ss.android.ugc.trill
+  - PROCESS-NAME,com.snapchat.android
+  - PROCESS-NAME,com.pinterest
+  - PROCESS-NAME,com.linkedin.android
+  - PROCESS-NAME,tv.twitch.android.app
+  - PROCESS-NAME,org.thoughtcrime.securesms
+  - PROCESS-NAME,jp.naver.line.android
+  - PROCESS-NAME,com.viber.voip
+  - PROCESS-NAME,com.kakao.talk
