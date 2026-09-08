@@ -1,0 +1,75 @@
+payload:
+  # DOMAIN：网易云音乐核心接口和服务
+  - DOMAIN,music.163.com
+  - DOMAIN,music.163.com.163jiasu.com
+  - DOMAIN,interface.music.163.com
+  - DOMAIN,interface3.music.163.com
+  - DOMAIN,interface.music.163.com.163jiasu.com
+  - DOMAIN,apm.music.163.com
+  - DOMAIN,apm3.music.163.com
+  - DOMAIN,clientlog.music.163.com
+  - DOMAIN,clientlog3.music.163.com
+  - DOMAIN,api.iplay.163.com
+  - DOMAIN,api.k.163.com
+  - DOMAIN,mam.netease.com
+  - DOMAIN,iadmat.nosdn.127.net
+  - DOMAIN,httpdns.n.netease.com
+  - DOMAIN,httpdns.music.163.com
+  - DOMAIN,ac.dun.163yun.com
+  - DOMAIN,acstatic-dun.126.net
+
+  # DOMAIN-SUFFIX：音频、封面、歌词和静态资源
+  - DOMAIN-SUFFIX,music.163.com
+  - DOMAIN-SUFFIX,music.126.net
+  - DOMAIN-SUFFIX,music.163.com.163jiasu.com
+  - DOMAIN-SUFFIX,music.163.com.lxdns.com
+  - DOMAIN-SUFFIX,music.163.com.w.kunlunaq.com
+  - DOMAIN-SUFFIX,music.163.com.wscdns.com
+  - DOMAIN-SUFFIX,music.163.com.wsglb0.com
+  - DOMAIN-SUFFIX,netease.com
+  - DOMAIN-SUFFIX,163yun.com
+  - DOMAIN-SUFFIX,126.net
+
+  # DOMAIN-KEYWORD：捕获网易云音乐相关的遗漏域名
+  - DOMAIN-KEYWORD,music.163
+  - DOMAIN-KEYWORD,music.126
+  - DOMAIN-KEYWORD,netease-cloudmusic
+  - DOMAIN-KEYWORD,cloudmusic
+
+  # DOMAIN-REGEX：Mihomo 支持，匹配网易云音乐接口和资源域名
+  - DOMAIN-REGEX,^.+\.music\.163\.com$
+  - DOMAIN-REGEX,^.+\.music\.126\.net$
+  - DOMAIN-REGEX,^m[0-9]+\.music\.126\.net$
+  - DOMAIN-REGEX,^p[0-9]+\.music\.126\.net$
+  - DOMAIN-REGEX,^.+\.music\.163\.com\.(163jiasu|lxdns|wscdns)\.com$
+
+  # GEOSITE：需要 Mihomo GeoSite 数据库包含 netease 分类
+  - GEOSITE,netease
+
+  # IP-CIDR：网易云音乐常见接口地址，建议与域名规则共同使用
+  - IP-CIDR,39.105.63.80/32,no-resolve
+  - IP-CIDR,45.254.48.1/32,no-resolve
+  - IP-CIDR,47.100.127.239/32,no-resolve
+  - IP-CIDR,59.111.160.195/32,no-resolve
+  - IP-CIDR,59.111.160.197/32,no-resolve
+  - IP-CIDR,59.111.181.35/32,no-resolve
+  - IP-CIDR,59.111.181.38/32,no-resolve
+  - IP-CIDR,59.111.181.60/32,no-resolve
+  - IP-CIDR,101.71.154.241/32,no-resolve
+  - IP-CIDR,103.126.92.132/32,no-resolve
+  - IP-CIDR,103.126.92.133/32,no-resolve
+  - IP-CIDR,112.13.119.17/32,no-resolve
+  - IP-CIDR,112.13.122.1/32,no-resolve
+  - IP-CIDR,115.236.118.33/32,no-resolve
+  - IP-CIDR,115.236.121.1/32,no-resolve
+  - IP-CIDR,118.24.63.156/32,no-resolve
+  - IP-CIDR,193.112.159.225/32,no-resolve
+
+  # PROCESS-NAME：Windows、macOS、Android 等客户端进程/包名
+  - PROCESS-NAME,cloudmusic.exe
+  - PROCESS-NAME,CloudMusic.exe
+  - PROCESS-NAME,cloudmusic
+  - PROCESS-NAME,NeteaseMusic
+  - PROCESS-NAME,com.netease.cloudmusic
+  - PROCESS-NAME,com.netease.cloudmusic.lite
+  - PROCESS-NAME,com.netease.cloudmusic.wearable
