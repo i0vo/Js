@@ -1,0 +1,89 @@
+payload:
+  # DOMAIN：精确域名
+  - DOMAIN,api.bilibili.com
+  - DOMAIN,api.live.bilibili.com
+  - DOMAIN,app.bilibili.com
+  - DOMAIN,www.bilibili.com
+  - DOMAIN,m.bilibili.com
+  - DOMAIN,live.bilibili.com
+  - DOMAIN,passport.bilibili.com
+  - DOMAIN,account.bilibili.com
+  - DOMAIN,space.bilibili.com
+  - DOMAIN,message.bilibili.com
+  - DOMAIN,t.bilibili.com
+  - DOMAIN,search.bilibili.com
+  - DOMAIN,member.bilibili.com
+  - DOMAIN,link.bilibili.com
+  - DOMAIN,api.biliapi.com
+  - DOMAIN,api.biliapi.net
+  - DOMAIN,bangumi.bilibili.com
+  - DOMAIN,comic.bilibili.com
+  - DOMAIN,manga.bilibili.com
+  - DOMAIN,game.bilibili.com
+  - DOMAIN,show.bilibili.com
+  - DOMAIN,vc.bilibili.com
+  - DOMAIN,grpc.biliapi.net
+  - DOMAIN,upos-sz-mirrorali.bilivideo.com
+  - DOMAIN,upos-sz-mirrorcos.bilivideo.com
+  - DOMAIN,upos-sz-mirrorhw.bilivideo.com
+  - DOMAIN,upos-sz-mirror08c.bilivideo.com
+
+  # DOMAIN-SUFFIX：覆盖主站、接口、视频 CDN、图片 CDN、直播和关联业务
+  - DOMAIN-SUFFIX,bilibili.com
+  - DOMAIN-SUFFIX,bilibili.tv
+  - DOMAIN-SUFFIX,biliapi.com
+  - DOMAIN-SUFFIX,biliapi.net
+  - DOMAIN-SUFFIX,bilivideo.com
+  - DOMAIN-SUFFIX,bilicdn1.com
+  - DOMAIN-SUFFIX,bilicdn2.com
+  - DOMAIN-SUFFIX,bilibiligame.com
+  - DOMAIN-SUFFIX,biligame.com
+  - DOMAIN-SUFFIX,biligame.net
+  - DOMAIN-SUFFIX,bilicomics.com
+  - DOMAIN-SUFFIX,bilicomics.net
+  - DOMAIN-SUFFIX,b23.tv
+  - DOMAIN-SUFFIX,hdslb.com
+  - DOMAIN-SUFFIX,acg.tv
+  - DOMAIN-SUFFIX,im9.com
+  - DOMAIN-SUFFIX,biliplus.com
+  - DOMAIN-SUFFIX,mcbbs.net
+
+  # DOMAIN-KEYWORD：用于捕获名称中带有哔哩哔哩标识的遗漏域名
+  - DOMAIN-KEYWORD,bilibili
+  - DOMAIN-KEYWORD,biliapi
+  - DOMAIN-KEYWORD,bilivideo
+  - DOMAIN-KEYWORD,bilicdn
+  - DOMAIN-KEYWORD,biligame
+
+  # DOMAIN-REGEX：Mihomo 支持，匹配常见 UPOS 视频分发域名
+  - DOMAIN-REGEX,^.+\.bilivideo\.com$
+  - DOMAIN-REGEX,^upos-[a-z0-9-]+\.bilivideo\.com$
+  - DOMAIN-REGEX,^.+\.biliapi\.(com|net)$
+  - DOMAIN-REGEX,^.+\.(bilibili|bilibiligame)\.com$
+
+  # GEOSITE：需要 Mihomo GeoSite 数据库包含 bilibili 分类
+  - GEOSITE,bilibili
+
+  # IP-CIDR：哔哩哔哩公开服务可能使用动态态 CDN，固定 IP 随时可能变化。
+  # 以下仅保留官方规则生态常见的哔哩哔哩专用地址，建议配合域名规则使用。
+  - IP-CIDR,45.43.32.234/32,no-resolve
+  - IP-CIDR,103.151.150.0/23,no-resolve
+  - IP-CIDR,119.3.238.64/32,no-resolve
+  - IP-CIDR,120.92.108.182/32,no-resolve
+  - IP-CIDR,120.92.113.99/32,no-resolve
+  - IP-CIDR,128.1.62.200/32,no-resolve
+  - IP-CIDR,128.1.62.201/32,no-resolve
+  - IP-CIDR,150.116.92.250/32,no-resolve
+  - IP-CIDR,164.52.76.18/32,no-resolve
+  - IP-CIDR,203.107.1.0/24,no-resolve
+
+  # IP-CIDR6：IPv6 地址段
+  - IP-CIDR6,2001:250:3000::/48,no-resolve
+
+  # PROCESS-NAME：不同面客户端进程名
+  - PROCESS-NAME,bilibili.exe
+  - PROCESS-NAME,Bilibili.exe
+  - PROCESS-NAME,哔哩哔哩.exe
+  - PROCESS-NAME,com.bilibili.app.in
+  - PROCESS-NAME,com.bilibili.app.blue
+  - PROCESS-NAME,com.bilibili.app.intl
