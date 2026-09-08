@@ -1,0 +1,220 @@
+payload:
+  # Google 广告体系
+  - DOMAIN,pagead2.googlesyndication.com
+  - DOMAIN,pagead-googlehosted.l.google.com
+  - DOMAIN,partnerad.l.google.com
+  - DOMAIN,googleads.g.doubleclick.net
+  - DOMAIN,adservice.google.com
+  - DOMAIN,adservice.google.com.cn
+  - DOMAIN,www.googleadservices.com
+  - DOMAIN-SUFFIX,doubleclick.net
+  - DOMAIN-SUFFIX,doubleclick.com
+  - DOMAIN-SUFFIX,googlesyndication.com
+  - DOMAIN-SUFFIX,googleadservices.com
+  - DOMAIN-SUFFIX,googleadsserving.cn
+  - DOMAIN-SUFFIX,google-analytics.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,googletagservices.com
+  - DOMAIN-SUFFIX,2mdn.net
+
+  # Meta / Facebook 广告与归因
+  - DOMAIN,an.facebook.com
+  - DOMAIN,ads.facebook.com
+  - DOMAIN,analytics.facebook.com
+  - DOMAIN-SUFFIX,facebookads.com
+  - DOMAIN-SUFFIX,facebookmarketingdevelopers.com
+  - DOMAIN-SUFFIX,atdmt.com
+  - DOMAIN-SUFFIX,atlasdmt.com
+
+  # Microsoft / Bing / Yahoo / Amazon 广告
+  - DOMAIN-SUFFIX,bingads.microsoft.com
+  - DOMAIN-SUFFIX,bat.bing.com
+  - DOMAIN-SUFFIX,ads.microsoft.com
+  - DOMAIN-SUFFIX,advertising.microsoft.com
+  - DOMAIN-SUFFIX,adnxs.com
+  - DOMAIN-SUFFIX,appnexus.com
+  - DOMAIN-SUFFIX,amazon-adsystem.com
+  - DOMAIN-SUFFIX,amazonadsi-a.akamaihd.net
+  - DOMAIN-SUFFIX,aaxads.com
+
+  # TikTok / ByteDance 广告与归因
+  - DOMAIN-SUFFIX,ads.tiktok.com
+  - DOMAIN-SUFFIX,ads.tiktokv.com
+  - DOMAIN-SUFFIX,analytics.tiktok.com
+  - DOMAIN-SUFFIX,business-api.tiktok.com
+  - DOMAIN-SUFFIX,byteoversea.net
+  - DOMAIN-SUFFIX,pangleglobal.com
+  - DOMAIN-SUFFIX,pangle.io
+
+  # Apple 广告与归因
+  - DOMAIN-SUFFIX,iadsdk.apple.com
+  - DOMAIN-SUFFIX,iad.apple.com
+  - DOMAIN-SUFFIX,advertising.apple.com
+  - DOMAIN-SUFFIX,metrics.apple.com
+
+  # 国际主流广告联盟
+  - DOMAIN-SUFFIX,adcolony.com
+  - DOMAIN-SUFFIX,adform.net
+  - DOMAIN-SUFFIX,adform.com
+  - DOMAIN-SUFFIX,adition.com
+  - DOMAIN-SUFFIX,admob.com
+  - DOMAIN-SUFFIX,adnxs.com
+  - DOMAIN-SUFFIX,adroll.com
+  - DOMAIN-SUFFIX,adsafeprotected.com
+  - DOMAIN-SUFFIX,adsrvr.org
+  - DOMAIN-SUFFIX,adtech.com
+  - DOMAIN-SUFFIX,advertising.com
+  - DOMAIN-SUFFIX,adzerk.net
+  - DOMAIN-SUFFIX,amplitude.com
+  - DOMAIN-SUFFIX,applovin.com
+  - DOMAIN-SUFFIX,applvn.com
+  - DOMAIN-SUFFIX,chartboost.com
+  - DOMAIN-SUFFIX,criteo.com
+  - DOMAIN-SUFFIX,criteo.net
+  - DOMAIN-SUFFIX,demdex.net
+  - DOMAIN-SUFFIX,exoclick.com
+  - DOMAIN-SUFFIX,flashtalking.com
+  - DOMAIN-SUFFIX,fyber.com
+  - DOMAIN-SUFFIX,innovid.com
+  - DOMAIN-SUFFIX,inner-active.mobi
+  - DOMAIN-SUFFIX,inmobi.com
+  - DOMAIN-SUFFIX,ironsrc.com
+  - DOMAIN-SUFFIX,media.net
+  - DOMAIN-SUFFIX,moatads.com
+  - DOMAIN-SUFFIX,mopub.com
+  - DOMAIN-SUFFIX,outbrain.com
+  - DOMAIN-SUFFIX,pubmatic.com
+  - DOMAIN-SUFFIX,quantserve.com
+  - DOMAIN-SUFFIX,revcontent.com
+  - DOMAIN-SUFFIX,rubiconproject.com
+  - DOMAIN-SUFFIX,smartadserver.com
+  - DOMAIN-SUFFIX,taboola.com
+  - DOMAIN-SUFFIX,teads.tv
+  - DOMAIN-SUFFIX,unityads.unity3d.com
+  - DOMAIN-SUFFIX,vungle.com
+  - DOMAIN-SUFFIX,yieldmo.com
+  - DOMAIN-SUFFIX,zedo.com
+
+  # 移动应用广告与 SDK
+  - DOMAIN-SUFFIX,adjust.com
+  - DOMAIN-SUFFIX,adjust.net.in
+  - DOMAIN-SUFFIX,appsflyer.com
+  - DOMAIN-SUFFIX,appsflyersdk.com
+  - DOMAIN-SUFFIX,branch.io
+  - DOMAIN-SUFFIX,branchlink.com
+  - DOMAIN-SUFFIX,kochava.com
+  - DOMAIN-SUFFIX,singular.net
+  - DOMAIN-SUFFIX,tenjin.com
+  - DOMAIN-SUFFIX,airpush.com
+  - DOMAIN-SUFFIX,leadbolt.com
+  - DOMAIN-SUFFIX,startappservice.com
+  - DOMAIN-SUFFIX,startappexchange.com
+  - DOMAIN-SUFFIX,tapjoy.com
+  - DOMAIN-SUFFIX,unityads.unity3d.com
+  - DOMAIN-SUFFIX,unity3dads.com
+
+  # 数据追踪、画像、热图和用户行为分析
+  - DOMAIN-SUFFIX,scorecardresearch.com
+  - DOMAIN-SUFFIX,bluekai.com
+  - DOMAIN-SUFFIX,krxd.net
+  - DOMAIN-SUFFIX,rlcdn.com
+  - DOMAIN-SUFFIX,mathtag.com
+  - DOMAIN-SUFFIX,everesttech.net
+  - DOMAIN-SUFFIX,omtrdc.net
+  - DOMAIN-SUFFIX,2o7.net
+  - DOMAIN-SUFFIX,newrelic.com
+  - DOMAIN-SUFFIX,segment.com
+  - DOMAIN-SUFFIX,segment.io
+  - DOMAIN-SUFFIX,mixpanel.com
+  - DOMAIN-SUFFIX,hotjar.com
+  - DOMAIN-SUFFIX,hotjar.io
+  - DOMAIN-SUFFIX,fullstory.com
+  - DOMAIN-SUFFIX,mouseflow.com
+  - DOMAIN-SUFFIX,clarity.ms
+  - DOMAIN-SUFFIX,heapanalytics.com
+  - DOMAIN-SUFFIX,quantcount.com
+  - DOMAIN-SUFFIX,parsely.com
+  - DOMAIN-SUFFIX,chartbeat.com
+  - DOMAIN-SUFFIX,chartbeat.net
+
+  # 视频、流媒体和原生广告
+  - DOMAIN-SUFFIX,imasdk.googleapis.com
+  - DOMAIN-SUFFIX,freewheel.tv
+  - DOMAIN-SUFFIX,spotxchange.com
+  - DOMAIN-SUFFIX,spotx.tv
+  - DOMAIN-SUFFIX,brightcove.com
+  - DOMAIN-SUFFIX,adswizz.com
+  - DOMAIN-SUFFIX,adswizz.net
+  - DOMAIN-SUFFIX,conviva.com
+  - DOMAIN-SUFFIX,conviva.net
+  - DOMAIN-SUFFIX,nativeads.com
+  - DOMAIN-SUFFIX,revjet.com
+  - DOMAIN-SUFFIX,triplelift.com
+
+  # 推送、弹窗和重定向广告
+  - DOMAIN-SUFFIX,propellerads.com
+  - DOMAIN-SUFFIX,propellerads.net
+  - DOMAIN-SUFFIX,onclickads.net
+  - DOMAIN-SUFFIX,popads.net
+  - DOMAIN-SUFFIX,popcash.net
+  - DOMAIN-SUFFIX,exdynsrv.com
+  - DOMAIN-SUFFIX,trafficjunky.com
+  - DOMAIN-SUFFIX,trafficfactory.biz
+  - DOMAIN-SUFFIX,juicyads.com
+  - DOMAIN-SUFFIX,hilltopads.net
+  - DOMAIN-SUFFIX,clickadu.com
+  - DOMAIN-SUFFIX,adsterra.com
+
+  # 国内常见广告与统计服务
+  - DOMAIN-SUFFIX,alimama.com
+  - DOMAIN-SUFFIX,mmstat.com
+  - DOMAIN-SUFFIX,tanx.com
+  - DOMAIN-SUFFIX,cpro.baidu.com
+  - DOMAIN-SUFFIX,pos.baidu.com
+  - DOMAIN-SUFFIX,hm.baidu.com
+  - DOMAIN-SUFFIX,union.baidu.com
+  - DOMAIN-SUFFIX,e.qq.com
+  - DOMAIN-SUFFIX,gdt.qq.com
+  - DOMAIN-SUFFIX,adsmind.apdcdn.tc.qq.com
+  - DOMAIN-SUFFIX,ad.tencentmusic.com
+  - DOMAIN-SUFFIX,ad.xiaomi.com
+  - DOMAIN-SUFFIX,ad.intl.xiaomi.com
+  - DOMAIN-SUFFIX,tracking.miui.com
+  - DOMAIN-SUFFIX,ad.huawei.com
+  - DOMAIN-SUFFIX,ads.huawei.com
+  - DOMAIN-SUFFIX,ads.heytapmobi.com
+  - DOMAIN-SUFFIX,ads.oppomobile.com
+  - DOMAIN-SUFFIX,ad.vivo.com.cn
+  - DOMAIN-SUFFIX,pangolin-sdk-toutiao.com
+
+  # 常见恶意推广和可疑广告域名
+  - DOMAIN-SUFFIX,adf.ly
+  - DOMAIN-SUFFIX,sh.st
+  - DOMAIN-SUFFIX,linkbucks.com
+  - DOMAIN-SUFFIX,ouo.io
+  - DOMAIN-SUFFIX,bc.vc
+  - DOMAIN-SUFFIX,clk.sh
+  - DOMAIN-SUFFIX,short.am
+  - DOMAIN-SUFFIX,shorte.st
+
+  # 精确关键词：避免使用过宽的 ad / ads
+  - DOMAIN-KEYWORD,doubleclick
+  - DOMAIN-KEYWORD,googlesyndication
+  - DOMAIN-KEYWORD,googleadservices
+  - DOMAIN-KEYWORD,amazon-adsystem
+  - DOMAIN-KEYWORD,facebookads
+  - DOMAIN-KEYWORD,appsflyer
+  - DOMAIN-KEYWORD,adjust-sdk
+  - DOMAIN-KEYWORD,unityads
+  - DOMAIN-KEYWORD,adservice
+  - DOMAIN-KEYWORD,adserver
+  - DOMAIN-KEYWORD,adtracking
+
+  # DOMAIN-REGEX：Mihomo 支持，匹配典型广告主机名
+  - DOMAIN-REGEX,^ads?[0-9]*\..+$
+  - DOMAIN-REGEX,^.+\.(doubleclick|googlesyndication|googleadservices)\.com$
+  - DOMAIN-REGEX,^.+\.(adnxs|adsrvr|criteo|taboola|outbrain)\.(com|net|org)$
+  - DOMAIN-REGEX,^.+\.(appsflyer|adjust|branch|kochava)\.(com|io)$
+
+  # GEOSITE：Mihomo 广告分类总集
+  - GEOSITE,category-ads-all
