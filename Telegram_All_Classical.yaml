@@ -1,0 +1,82 @@
+payload:
+  # DOMAIN：Telegram 核心服务
+  - DOMAIN,telegram.org
+  - DOMAIN,www.telegram.org
+  - DOMAIN,api.telegram.org
+  - DOMAIN,core.telegram.org
+  - DOMAIN,my.telegram.org
+  - DOMAIN,web.telegram.org
+  - DOMAIN,desktop.telegram.org
+  - DOMAIN,macos.telegram.org
+  - DOMAIN,translations.telegram.org
+  - DOMAIN,bugs.telegram.org
+  - DOMAIN,suggestions.telegram.org
+  - DOMAIN,fragment.com
+  - DOMAIN,www.fragment.com
+  - DOMAIN,t.me
+  - DOMAIN,telegram.me
+  - DOMAIN,telegram.dog
+  - DOMAIN,telegra.ph
+  - DOMAIN,telesco.pe
+  - DOMAIN,tdesktop.com
+  - DOMAIN,contest.com
+
+  # DOMAIN-SUFFIX：官网、短链接、Bot API、媒体与关联服务
+  - DOMAIN-SUFFIX,telegram.org
+  - DOMAIN-SUFFIX,telegram.me
+  - DOMAIN-SUFFIX,telegram.dog
+  - DOMAIN-SUFFIX,t.me
+  - DOMAIN-SUFFIX,tx.me
+  - DOMAIN-SUFFIX,telesco.pe
+  - DOMAIN-SUFFIX,telegra.ph
+  - DOMAIN-SUFFIX,tdesktop.com
+  - DOMAIN-SUFFIX,fragment.com
+  - DOMAIN-SUFFIX,telegram-cdn.org
+  - DOMAIN-SUFFIX,cdn-telegram.org
+  - DOMAIN-SUFFIX,comments.app
+  - DOMAIN-SUFFIX,quiz.directory
+  - DOMAIN-SUFFIX,stel.com
+  - DOMAIN-SUFFIX,tg.dev
+
+  # DOMAIN-KEYWORD：捕获 Telegram 相关遗漏域名
+  - DOMAIN-KEYWORD,telegram
+  - DOMAIN-KEYWORD,telegra-ph
+  - DOMAIN-KEYWORD,tdesktop
+
+  # DOMAIN-REGEX：Mihomo 支持
+  - DOMAIN-REGEX,^.+\.telegram\.org$
+  - DOMAIN-REGEX,^.+\.telegram\.me$
+  - DOMAIN-REGEX,^.+\.telegram\.dog$
+  - DOMAIN-REGEX,^.+\.telegram-cdn\.org$
+  - DOMAIN-REGEX,^.+\.cdn-telegram\.org$
+  - DOMAIN-REGEX,^.+\.t\.me$
+
+  # GEOSITE：需要 Mihomo GeoSite 数据库包含 telegram 分类
+  - GEOSITE,telegram
+
+  # IP-CIDR：Telegram 官方数据中心 IPv4 网段
+  - IP-CIDR,91.108.4.0/22,no-resolve
+  - IP-CIDR,91.108.8.0/21,no-resolve
+  - IP-CIDR,91.108.16.0/22,no-resolve
+  - IP-CIDR,91.108.20.0/22,no-resolve
+  - IP-CIDR,91.108.56.0/22,no-resolve
+  - IP-CIDR,95.161.64.0/20,no-resolve
+  - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,185.76.151.0/24,no-resolve
+
+  # IP-CIDR6：Telegram 官方数据中心 IPv6 网段
+  - IP-CIDR6,2001:67c:4e8::/48,no-resolve
+  - IP-CIDR6,2001:b28:f23c::/47,no-resolve
+  - IP-CIDR6,2001:b28:f23f::/48,no-resolve
+  - IP-CIDR6,2a0a:f280::/32,no-resolve
+
+  # PROCESS-NAME：Windows、macOS、Linux、Android 与 iOS 客户端
+  - PROCESS-NAME,Telegram.exe
+  - PROCESS-NAME,telegram.exe
+  - PROCESS-NAME,Telegram
+  - PROCESS-NAME,telegram-desktop
+  - PROCESS-NAME,org.telegram.desktop
+  - PROCESS-NAME,org.telegram.messenger
+  - PROCESS-NAME,org.telegram.messenger.web
+  - PROCESS-NAME,org.telegram.messenger.beta
+  - PROCESS-NAME,ph.telegra.Telegraph
