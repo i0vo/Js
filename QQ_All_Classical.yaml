@@ -1,0 +1,28 @@
+payload:
+  # QQ 客户端与腾讯即时通信核心域名
+  - PROCESS-NAME,QQ.exe
+  - PROCESS-NAME,QQ
+  - PROCESS-NAME,qq.exe
+  - PROCESS-NAME,com.tencent.mobileqq
+  - PROCESS-NAME,com.tencent.mqq
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,qq.net
+  - DOMAIN-SUFFIX,qzone.com
+  - DOMAIN-SUFFIX,gtimg.com
+  - DOMAIN-SUFFIX,qpic.cn
+  - DOMAIN-SUFFIX,qqmail.com
+  - DOMAIN-SUFFIX,idqqimg.com
+  - DOMAIN-SUFFIX,imqq.com
+  - DOMAIN-SUFFIX,myapp.com
+  - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,soso.com
+  - DOMAIN-SUFFIX,tencent.com
+  - DOMAIN-SUFFIX,tencent-cloud.net
+  - DOMAIN-SUFFIX,tencent-cloud.com
+  - DOMAIN-SUFFIX,cdn-go.cn
+  - DOMAIN-SUFFIX,anticheatexpert.com
+  - DOMAIN-KEYWORD,qqweb
+  - DOMAIN-KEYWORD,qzone
+  - DOMAIN-KEYWORD,qqmail
+  - GEOSITE,tencent
+

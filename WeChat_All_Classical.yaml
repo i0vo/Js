@@ -1,0 +1,28 @@
+payload:
+  # 微信、企业微信与微信支付核心域名
+  - PROCESS-NAME,WeChat.exe
+  - PROCESS-NAME,WeChatApp.exe
+  - PROCESS-NAME,WeChat
+  - PROCESS-NAME,WXWork.exe
+  - PROCESS-NAME,WeCom.exe
+  - PROCESS-NAME,com.tencent.mm
+  - PROCESS-NAME,com.tencent.wework
+  - DOMAIN-SUFFIX,weixin.qq.com
+  - DOMAIN-SUFFIX,wechat.com
+  - DOMAIN-SUFFIX,wechatapp.com
+  - DOMAIN-SUFFIX,wechatpay.com
+  - DOMAIN-SUFFIX,wx.qq.com
+  - DOMAIN-SUFFIX,servicewechat.com
+  - DOMAIN-SUFFIX,qlogo.cn
+  - DOMAIN-SUFFIX,qpic.cn
+  - DOMAIN-SUFFIX,gtimg.com
+  - DOMAIN-SUFFIX,qq.com
+  - DOMAIN-SUFFIX,tenpay.com
+  - DOMAIN-SUFFIX,wxwork.com
+  - DOMAIN-SUFFIX,wework.cn
+  - DOMAIN-SUFFIX,work.weixin.qq.com
+  - DOMAIN-KEYWORD,weixin
+  - DOMAIN-KEYWORD,wechat
+  - DOMAIN-KEYWORD,wxwork
+  - GEOSITE,wechat
+
