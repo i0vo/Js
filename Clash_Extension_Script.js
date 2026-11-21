@@ -36,7 +36,7 @@ function main(config) {
   }
 
   const preferredNodes = preferred(nodes, DEFAULT_NODE);
-  const common = ["🚀 智能选路", "⚡ 延迟优选", ...nodes, "DIRECT"];
+  const common = ["🔀 节点选择", "⚡ 自动选择", ...nodes, "DIRECT"];
 
   config.mode = "rule";
   config.ipv6 = true;
@@ -111,46 +111,46 @@ function main(config) {
 
   config["proxy-groups"] = [
     {
-      name: "🚀 智能选路",
+      name: "🔀 节点选择",
       type: "select",
-      proxies: [...preferredNodes, "⚡ 延迟优选", "DIRECT"]
+      proxies: [...preferredNodes, "⚡ 自动选择", "DIRECT"]
     },
     {
       ...HEALTH_CHECK,
-      name: "⚡ 延迟优选",
+      name: "⚡ 自动选择",
       type: "url-test",
       tolerance: 50,
       proxies: nodes
     },
-    { name: "🐧 QQ通信", type: "select", proxies: unique(["DIRECT", ...common]) },
-    { name: "💬 微信通信", type: "select", proxies: unique(["DIRECT", ...common]) },
-    { name: "🎧 网易音乐", type: "select", proxies: ["🚀 智能选路", "DIRECT", "⚡ 延迟优选", ...nodes] },
-    { name: "📺 哔哩哔哩", type: "select", proxies: ["🚀 智能选路", "DIRECT", "⚡ 延迟优选", ...nodes] },
+    { name: "🐧 QQ", type: "select", proxies: unique(["DIRECT", ...common]) },
+    { name: "💬 微信", type: "select", proxies: unique(["DIRECT", ...common]) },
+    { name: "🎵 网易云", type: "select", proxies: ["🔀 节点选择", "DIRECT", "⚡ 自动选择", ...nodes] },
+    { name: "📺 哔哩哔哩", type: "select", proxies: ["🔀 节点选择", "DIRECT", "⚡ 自动选择", ...nodes] },
     { name: "✈️ Telegram", type: "select", proxies: common },
-    { name: "🌍 国际媒体", type: "select", proxies: common },
-    { name: "🪟 微软服务", type: "select", proxies: ["🚀 智能选路", "DIRECT", "⚡ 延迟优选", ...nodes] },
-    { name: "🤖 AI 服务", type: "select", proxies: common },
-    { name: "🧹 广告净化", type: "select", proxies: ["REJECT", "DIRECT"] },
-    { name: "🐟 最终兜底", type: "select", proxies: common }
+    { name: "🌐 海外媒体", type: "select", proxies: common },
+    { name: "🪟 Microsoft", type: "select", proxies: ["🔀 节点选择", "DIRECT", "⚡ 自动选择", ...nodes] },
+    { name: "🤖 AI", type: "select", proxies: common },
+    { name: "🛡️ 广告拦截", type: "select", proxies: ["REJECT", "DIRECT"] },
+    { name: "🎯 兜底", type: "select", proxies: common }
   ];
 
   config.rules = [
-    "RULE-SET,Advertising,🧹 广告净化",
-    "RULE-SET,WeChat,💬 微信通信",
-    "RULE-SET,QQ,🐧 QQ通信",
-    "RULE-SET,NetEaseMusic,🎧 网易音乐",
+    "RULE-SET,Advertising,🛡️ 广告拦截",
+    "RULE-SET,WeChat,💬 微信",
+    "RULE-SET,QQ,🐧 QQ",
+    "RULE-SET,NetEaseMusic,🎵 网易云",
     "RULE-SET,BiliBili,📺 哔哩哔哩",
     "RULE-SET,Telegram,✈️ Telegram",
-    "RULE-SET,GlobalAI,🤖 AI 服务",
-    "RULE-SET,GlobalSocialMedia,🌍 国际媒体",
-    "RULE-SET,Microsoft,🪟 微软服务",
+    "RULE-SET,GlobalAI,🤖 AI",
+    "RULE-SET,GlobalSocialMedia,🌐 海外媒体",
+    "RULE-SET,Microsoft,🪟 Microsoft",
     "RULE-SET,Apple,DIRECT",
-    "RULE-SET,Google,🚀 智能选路",
+    "RULE-SET,Google,🔀 节点选择",
     "RULE-SET,Lan,DIRECT",
     "RULE-SET,ChinaMax,DIRECT",
     "GEOIP,CN,DIRECT,no-resolve",
-    "RULE-SET,Global,🚀 智能选路",
-    "MATCH,🐟 最终兜底"
+    "RULE-SET,Global,🔀 节点选择",
+    "MATCH,🎯 兜底"
   ];
 
   const customRules = {
