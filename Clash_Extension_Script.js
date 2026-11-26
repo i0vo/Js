@@ -130,12 +130,14 @@ function main(config) {
     { name: "🌐 海外媒体", type: "select", proxies: common },
     { name: "🪟 Microsoft", type: "select", proxies: ["🔀 节点选择", "DIRECT", "⚡ 自动选择", ...nodes] },
     { name: "🤖 AI", type: "select", proxies: common },
+    { name: "🌧️ 雨云", type: "select", proxies: common },
     { name: "🛡️ 广告拦截", type: "select", proxies: ["REJECT", "DIRECT"] },
     { name: "🎯 兜底", type: "select", proxies: common }
   ];
 
   config.rules = [
     "RULE-SET,Advertising,🛡️ 广告拦截",
+    "RULE-SET,Rainyun,🌧️ 雨云",
     "RULE-SET,WeChat,💬 微信",
     "RULE-SET,QQ,🐧 QQ",
     "RULE-SET,NetEaseMusic,🎵 网易云",
@@ -162,6 +164,7 @@ function main(config) {
     GlobalSocialMedia: "GlobalSocialMedia_All_Classical.yaml",
     Microsoft: "Microsoft_All_Classical.yaml",
     GlobalAI: "GlobalAI_All_Classical.yaml",
+    Rainyun: "Rainyun_All_Classical.yaml",
     Advertising: "Advertising_Block_All_Classical.yaml"
   };
 
